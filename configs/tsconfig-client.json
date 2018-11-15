@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "es2015.core",
+            "es5",
+            "es2015",
+            "esnext.asynciterable"
+        ],
+        "rootDirs": [
+            "../src",
+            "application"
+        ],
+        "sourceMap": false,
+        "outDir": "../dist",
+        "removeComments": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictPropertyInitialization": false,
+        "skipLibCheck": true,
+        "moduleResolution": "node"
+    },
+    "exclude": [
+        "../node_modules/",
+        "../__tests__/*.spec.ts",
+        "../node_modules/**/*.d.ts"
+    ],
+    "include": [
+        "../src/app/**/*.ts"
+    ]
+}

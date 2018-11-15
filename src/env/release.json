@@ -1,0 +1,12 @@
+{
+	"server": {
+		"env": "release",
+		"port": 7000,
+		"apiBasePath": "http://api.tvmaze.com",
+		"dbUrl": "mongodb://127.0.0.1:27017/shows-development",
+		"baseUrl": "/api",
+		"appName": "[release] Netflix App Api",
+		"mongoClient": true,
+		"debugMode": false
+	}
+}

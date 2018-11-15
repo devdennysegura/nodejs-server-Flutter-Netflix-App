@@ -1,0 +1,17 @@
+{
+  "presets": [
+    ["env", {"modules": false}],
+    "react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel"
+  ],
+  "env": {
+    "release": {
+      "presets": ["minify"]
+    },
+    "tests": {
+      "presets": ["env", "react"]
+    }
+  }
+}

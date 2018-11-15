@@ -1,0 +1,13 @@
+{
+	"apps": [
+		{
+			"name": "netflix-app",
+			"script": "/dist/index.js",
+			"instances": "4",
+			"exec_mode" : "cluster",
+			"max_memory_restart": "2G",
+			"error_file": "development-err.log",
+			"out_file": "development-output.log"
+		}
+	]
+}

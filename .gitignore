@@ -1,0 +1,31 @@
+# Logs
+*.log
+npm-debug.log*
+
+# output
+dist/
+.sass-cache
+.DS_Store
+
+# Runtime data
+*.pid
+*.seed
+
+# IDE
+.idea/
+
+# Coverage directory
+__tests__/__coverage__
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# cache directory
+.npm
+.tscache
+
+# tests
+test/
+integration/
