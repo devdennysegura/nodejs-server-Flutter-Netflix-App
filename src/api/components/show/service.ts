@@ -43,3 +43,11 @@ export const shuffle = async () => {
         throw error;
     }
 };
+export const byId = async ({ id }: any) => {
+    try {
+        return await ShowSchemaModel.findOne({ id });
+    } catch (error) {
+        logger.error(`Error on random: ${error.message}`);
+        throw error;
+    }
+};

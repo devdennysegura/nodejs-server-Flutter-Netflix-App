@@ -9,6 +9,10 @@ export const tvshowRoutes: { [index: string]: any } = {
         verb: ['get'],
         handler: Controller.getItems
     },
+    '/show/:id': {
+        verb: ['get'],
+        handler: Controller.getTvShow
+    },
     '/shuffle-show': {
         verb: ['get'],
         handler: Controller.getRandom
