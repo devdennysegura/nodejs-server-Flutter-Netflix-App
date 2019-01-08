@@ -1,5 +1,6 @@
 import * as mongoose from 'mongoose';
 import { Schema } from 'mongoose';
+import * as random from 'mongoose-simple-random';
 
 const ObjectId = mongoose.Types.ObjectId;
 ObjectId.prototype.valueOf = function () {
@@ -21,3 +22,4 @@ export const schema: any = new Schema(
     }, {
         timestamps: false, versionKey: false
     });
+schema.plugin(random);

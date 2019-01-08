@@ -4,7 +4,7 @@ import { endPoints } from './end-point';
 import { helper as _ } from '../../../core/helpers';
 import TvShow from './model';
 import { addShow } from '../show/service';
-const numTvShows = 100;
+const numTvShows = 50;
 
 export const Service = {
   getItems: async (body: any, headers: any) => {

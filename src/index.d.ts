@@ -10,6 +10,7 @@ declare module 'express-healthcheck';
 declare module 'compression';
 declare module 'http-status';
 declare module 'mongoose';
+declare module 'mongoose-simple-random';
 declare module 'i18n';
 declare module 'winston';
 
