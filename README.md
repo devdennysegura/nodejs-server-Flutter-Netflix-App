@@ -4,6 +4,7 @@
 
 * Mac OS X, Windows, or Linux
 * [Node.js](https://nodejs.org/) version 9.0+
+* [MongoDB](https://docs.mongodb.com/v3.2/administration/install-community/) latest version
 
 ## Quick start
 
